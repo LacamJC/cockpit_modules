@@ -1,0 +1,10 @@
+{
+    "manifest_version" : 0,
+    "tools": {
+        "mkdir" : {
+            "label" : "mkdir",
+            "path" : "mkdir.html"
+        }
+    }
+}
+
