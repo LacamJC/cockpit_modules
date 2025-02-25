@@ -1,0 +1,10 @@
+{
+    "manifest_version" : 0,
+    "tools": {
+        "mkdir" : {
+            "label" : "Controle do diretorio de modulos",
+            "path" : "rmdir.html"
+        }
+    }
+}
+

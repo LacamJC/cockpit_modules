@@ -1,12 +1,12 @@
 var nome_pasta = document.getElementById("input")
 const btn = document.getElementById("enviar")
 const message = document.getElementById("message")
-const caminho = "/home/ramajo/Desktop/"
+const caminho = "/usr/share/cockpit/"
 function criar_diretorio() {
     const novo_diretorio = caminho+nome_pasta.value
 
     try{
-        cockpit.spawn(["mkdir", novo_diretorio ])
+        cockpit.spawn(["sudo","mkdir", novo_diretorio ])
         .then(()=>{
             alert("Pasta criada com sucesso")
             message.innerText = "Deu certo"

@@ -1,0 +1,34 @@
+/* Estilos gerais para a tabela */
+table {
+    width: 100%;
+    border-collapse: collapse; /* Remove os espaços entre as bordas */
+    margin: 20px 0;
+}
+
+/* Estilos para o cabeçalho da tabela (thead) */
+thead {
+    background-color: #f4f4f4; /* Cor de fundo suave */
+    font-weight: bold; /* Deixa o texto mais forte */
+}
+
+/* Estilos para as células do cabeçalho (th) */
+thead tr th {
+    padding: 10px;
+    border: 1px solid #ddd; /* Borda leve ao redor */
+    text-align: left; /* Alinha o texto à esquerda */
+}
+
+/* Estilos para as células do corpo da tabela (td) */
+tbody tr td {
+    padding: 10px;
+    border: 1px solid #ddd; /* Borda leve ao redor */
+}
+
+/* Estilos para as linhas do corpo da tabela */
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9; /* Cor alternada para linhas pares */
+}
+
+tbody tr:hover {
+    background-color: #e0e0e0; /* Cor de fundo ao passar o mouse */
+}
